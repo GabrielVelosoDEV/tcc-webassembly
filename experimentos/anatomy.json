@@ -1,0 +1,436 @@
+[
+ {
+  "file": "jbig2.wasm",
+  "bytes": 104852,
+  "funcs": 121,
+  "imports": 8,
+  "import_funcs": 8,
+  "exports": 7,
+  "data_segments": 15,
+  "producers": null,
+  "customs": [],
+  "sections": {
+   "type": {
+    "bytes": 159,
+    "br11": 76
+   },
+   "import": {
+    "bytes": 49,
+    "br11": 43
+   },
+   "function": {
+    "bytes": 122,
+    "br11": 76
+   },
+   "table": {
+    "bytes": 5,
+    "br11": 9
+   },
+   "memory": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "global": {
+    "bytes": 8,
+    "br11": 12
+   },
+   "export": {
+    "bytes": 30,
+    "br11": 33
+   },
+   "element": {
+    "bytes": 56,
+    "br11": 60
+   },
+   "datacount": {
+    "bytes": 1,
+    "br11": 5
+   },
+   "code": {
+    "bytes": 100034,
+    "br11": 30070
+   },
+   "data": {
+    "bytes": 4347,
+    "br11": 1907
+   }
+  }
+ },
+ {
+  "file": "nbody-wasm-o3.wasm",
+  "bytes": 1378,
+  "funcs": 1,
+  "imports": 0,
+  "import_funcs": 0,
+  "exports": 2,
+  "data_segments": 0,
+  "producers": {
+   "processed-by": [
+    "Ubuntu clang 18.1.3 (1ubuntu1)"
+   ]
+  },
+  "customs": [
+   {
+    "name": "name",
+    "bytes": 59
+   },
+   {
+    "name": "producers",
+    "bytes": 56
+   },
+   {
+    "name": "target_features",
+    "bytes": 57
+   }
+  ],
+  "sections": {
+   "type": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "function": {
+    "bytes": 2,
+    "br11": 6
+   },
+   "table": {
+    "bytes": 5,
+    "br11": 9
+   },
+   "memory": {
+    "bytes": 3,
+    "br11": 7
+   },
+   "global": {
+    "bytes": 8,
+    "br11": 12
+   },
+   "export": {
+    "bytes": 21,
+    "br11": 25
+   },
+   "code": {
+    "bytes": 1131,
+    "br11": 485
+   },
+   "custom:name": {
+    "bytes": 59,
+    "br11": 55
+   },
+   "custom:outros": {
+    "bytes": 113,
+    "br11": 86
+   }
+  }
+ },
+ {
+  "file": "openjpeg.wasm",
+  "bytes": 252032,
+  "funcs": 200,
+  "imports": 17,
+  "import_funcs": 17,
+  "exports": 6,
+  "data_segments": 35,
+  "producers": null,
+  "customs": [],
+  "sections": {
+   "type": {
+    "bytes": 225,
+    "br11": 102
+   },
+   "import": {
+    "bytes": 103,
+    "br11": 63
+   },
+   "function": {
+    "bytes": 202,
+    "br11": 123
+   },
+   "table": {
+    "bytes": 5,
+    "br11": 9
+   },
+   "memory": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "global": {
+    "bytes": 8,
+    "br11": 12
+   },
+   "export": {
+    "bytes": 29,
+    "br11": 33
+   },
+   "element": {
+    "bytes": 200,
+    "br11": 147
+   },
+   "datacount": {
+    "bytes": 1,
+    "br11": 5
+   },
+   "code": {
+    "bytes": 226386,
+    "br11": 60175
+   },
+   "data": {
+    "bytes": 24829,
+    "br11": 7226
+   }
+  }
+ },
+ {
+  "file": "qcms_bg.wasm",
+  "bytes": 96589,
+  "funcs": 141,
+  "imports": 3,
+  "import_funcs": 3,
+  "exports": 25,
+  "data_segments": 6,
+  "producers": {
+   "language": [
+    "Rust"
+   ],
+   "processed-by": [
+    "rustc 1.97.1 (8bab26f4f 2026-07-14)",
+    "walrus 0.26.4",
+    "wasm-bindgen 0.2.126"
+   ]
+  },
+  "customs": [
+   {
+    "name": "producers",
+    "bytes": 112
+   },
+   {
+    "name": "target_features",
+    "bytes": 107
+   }
+  ],
+  "sections": {
+   "type": {
+    "bytes": 97,
+    "br11": 61
+   },
+   "import": {
+    "bytes": 153,
+    "br11": 108
+   },
+   "function": {
+    "bytes": 143,
+    "br11": 81
+   },
+   "table": {
+    "bytes": 9,
+    "br11": 13
+   },
+   "memory": {
+    "bytes": 3,
+    "br11": 7
+   },
+   "global": {
+    "bytes": 25,
+    "br11": 29
+   },
+   "export": {
+    "bytes": 668,
+    "br11": 281
+   },
+   "element": {
+    "bytes": 73,
+    "br11": 77
+   },
+   "datacount": {
+    "bytes": 1,
+    "br11": 5
+   },
+   "code": {
+    "bytes": 89952,
+    "br11": 26530
+   },
+   "data": {
+    "bytes": 5206,
+    "br11": 1774
+   },
+   "custom:outros": {
+    "bytes": 219,
+    "br11": 159
+   }
+  }
+ },
+ {
+  "file": "quickjs-eval.wasm",
+  "bytes": 469105,
+  "funcs": 1229,
+  "imports": 13,
+  "import_funcs": 13,
+  "exports": 13,
+  "data_segments": 79,
+  "producers": null,
+  "customs": [],
+  "sections": {
+   "type": {
+    "bytes": 823,
+    "br11": 288
+   },
+   "import": {
+    "bytes": 79,
+    "br11": 56
+   },
+   "function": {
+    "bytes": 1231,
+    "br11": 765
+   },
+   "table": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "memory": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "global": {
+    "bytes": 8,
+    "br11": 12
+   },
+   "export": {
+    "bytes": 65,
+    "br11": 64
+   },
+   "element": {
+    "bytes": 936,
+    "br11": 598
+   },
+   "datacount": {
+    "bytes": 1,
+    "br11": 5
+   },
+   "code": {
+    "bytes": 385672,
+    "br11": 139536
+   },
+   "data": {
+    "bytes": 80239,
+    "br11": 44860
+   }
+  }
+ },
+ {
+  "file": "sharp-wasm32.wasm",
+  "bytes": 8991731,
+  "funcs": 15119,
+  "imports": 117,
+  "import_funcs": 116,
+  "exports": 24,
+  "data_segments": 1259,
+  "producers": null,
+  "customs": [],
+  "sections": {
+   "type": {
+    "bytes": 2973,
+    "br11": 897
+   },
+   "import": {
+    "bytes": 775,
+    "br11": 338
+   },
+   "function": {
+    "bytes": 15316,
+    "br11": 6796
+   },
+   "table": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "tag": {
+    "bytes": 5,
+    "br11": 9
+   },
+   "global": {
+    "bytes": 67,
+    "br11": 43
+   },
+   "export": {
+    "bytes": 143,
+    "br11": 105
+   },
+   "start": {
+    "bytes": 2,
+    "br11": 6
+   },
+   "element": {
+    "bytes": 18833,
+    "br11": 11118
+   },
+   "datacount": {
+    "bytes": 2,
+    "br11": 6
+   },
+   "code": {
+    "bytes": 6956073,
+    "br11": 1817470
+   },
+   "data": {
+    "bytes": 1997492,
+    "br11": 976635
+   }
+  }
+ },
+ {
+  "file": "webp_codec.wasm",
+  "bytes": 565369,
+  "funcs": 634,
+  "imports": 5,
+  "import_funcs": 5,
+  "exports": 8,
+  "data_segments": 150,
+  "producers": null,
+  "customs": [],
+  "sections": {
+   "type": {
+    "bytes": 380,
+    "br11": 149
+   },
+   "import": {
+    "bytes": 31,
+    "br11": 31
+   },
+   "function": {
+    "bytes": 636,
+    "br11": 309
+   },
+   "table": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "memory": {
+    "bytes": 7,
+    "br11": 11
+   },
+   "global": {
+    "bytes": 8,
+    "br11": 12
+   },
+   "export": {
+    "bytes": 39,
+    "br11": 43
+   },
+   "element": {
+    "bytes": 885,
+    "br11": 521
+   },
+   "datacount": {
+    "bytes": 2,
+    "br11": 6
+   },
+   "code": {
+    "bytes": 523369,
+    "br11": 120037
+   },
+   "data": {
+    "bytes": 39968,
+    "br11": 19958
+   }
+  }
+ }
+]

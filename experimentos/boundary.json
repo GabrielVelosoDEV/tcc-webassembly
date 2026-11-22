@@ -1,0 +1,32 @@
+{
+ "node": "v22.23.5",
+ "N": 10000000,
+ "REPS": 30,
+ "checksum": 823511872,
+ "results": {
+  "js→js (referência)": {
+   "med_ms": 12.733,
+   "q1": 12.528,
+   "q3": 12.829,
+   "ns_per_step": 1.273
+  },
+  "wasm interno": {
+   "med_ms": 13.231,
+   "q1": 12.834,
+   "q3": 15.426,
+   "ns_per_step": 1.323
+  },
+  "js→wasm por passo": {
+   "med_ms": 26.263,
+   "q1": 25.462,
+   "q3": 28.364,
+   "ns_per_step": 2.626
+  },
+  "wasm→js por passo": {
+   "med_ms": 77.44,
+   "q1": 76.317,
+   "q3": 79.774,
+   "ns_per_step": 7.744
+  }
+ }
+}
