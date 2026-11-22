@@ -1,0 +1,17 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>E2-R — bancada de execução</title>
+<script type="module">
+// bench.html?impl=js|wasm-o3|wasm-oz|wasm-o3-simd
+const q = new URLSearchParams(location.search);
+const impl = q.get('impl') ?? 'js';
+const N = 512, STEPS = 200, WARMUP = 5, RUNS = 10;
+let run;
+if (impl === 'js') { const m = await import('./nbody.mjs'); run = () => m.simulate(N, STEPS); }
+else { const module = await WebAssembly.compileStreaming(fetch(`./nbody-${impl}.wasm`)); const instance = await WebAssembly.instantiate(module, {}); run = () => instance.exports.simulate(N, STEPS); }
+const warm = []; let checksum = 0;
+for (let i = 0; i < WARMUP; i++) { const a = performance.now(); checksum = run(); warm.push(performance.now() - a); }  // warm[0] = 1ª chamada (fria)
+const exec = []; for (let i = 0; i < RUNS; i++) { const a = performance.now(); checksum = run(); exec.push(performance.now() - a); }
+window.__RESULT__ = { env: 'chrome', impl, n: N, steps: STEPS, checksum, warmup_ms: warm, exec_ms: exec, ua: navigator.userAgent };
+document.body.textContent = JSON.stringify(window.__RESULT__);
+</script>

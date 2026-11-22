@@ -1,0 +1,247 @@
+{
+ "node": "v22.23.5",
+ "zlib": "1.3.1-e00f703",
+ "brotli": "1.1.0",
+ "zstd": "1.5.7",
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "rows": [
+  {
+   "file": "jbig2.wasm",
+   "bytes": 104852,
+   "gzip-6": {
+    "bytes": 40489,
+    "comp_ms": 3.233,
+    "decomp_ms": 0.473
+   },
+   "gzip-9": {
+    "bytes": 40466,
+    "comp_ms": 3.11,
+    "decomp_ms": 0.438
+   },
+   "br-5": {
+    "bytes": 36045,
+    "comp_ms": 3.626,
+    "decomp_ms": 0.414
+   },
+   "br-11": {
+    "bytes": 32420,
+    "comp_ms": 177.16,
+    "decomp_ms": 0.478
+   },
+   "zstd-3": {
+    "bytes": 39649,
+    "comp_ms": 1.026,
+    "decomp_ms": 0.329
+   },
+   "zstd-19": {
+    "bytes": 34740,
+    "comp_ms": 31.522,
+    "decomp_ms": 0.35
+   }
+  },
+  {
+   "file": "nbody-wasm-o3.wasm",
+   "bytes": 1378,
+   "gzip-6": {
+    "bytes": 735,
+    "comp_ms": 0.049,
+    "decomp_ms": 0.011
+   },
+   "gzip-9": {
+    "bytes": 735,
+    "comp_ms": 0.037,
+    "decomp_ms": 0.011
+   },
+   "br-5": {
+    "bytes": 701,
+    "comp_ms": 0.1,
+    "decomp_ms": 0.075
+   },
+   "br-11": {
+    "bytes": 671,
+    "comp_ms": 2.538,
+    "decomp_ms": 0.015
+   },
+   "zstd-3": {
+    "bytes": 746,
+    "comp_ms": 0.047,
+    "decomp_ms": 0.029
+   },
+   "zstd-19": {
+    "bytes": 715,
+    "comp_ms": 0.222,
+    "decomp_ms": 0.028
+   }
+  },
+  {
+   "file": "openjpeg.wasm",
+   "bytes": 252032,
+   "gzip-6": {
+    "bytes": 83009,
+    "comp_ms": 5.71,
+    "decomp_ms": 0.848
+   },
+   "gzip-9": {
+    "bytes": 82944,
+    "comp_ms": 6.079,
+    "decomp_ms": 0.883
+   },
+   "br-5": {
+    "bytes": 76075,
+    "comp_ms": 6.966,
+    "decomp_ms": 0.889
+   },
+   "br-11": {
+    "bytes": 68190,
+    "comp_ms": 460.165,
+    "decomp_ms": 1.01
+   },
+   "zstd-3": {
+    "bytes": 83791,
+    "comp_ms": 1.48,
+    "decomp_ms": 0.529
+   },
+   "zstd-19": {
+    "bytes": 72891,
+    "comp_ms": 67.23,
+    "decomp_ms": 0.517
+   }
+  },
+  {
+   "file": "qcms_bg.wasm",
+   "bytes": 96589,
+   "gzip-6": {
+    "bytes": 35849,
+    "comp_ms": 2.183,
+    "decomp_ms": 0.3
+   },
+   "gzip-9": {
+    "bytes": 35810,
+    "comp_ms": 2.436,
+    "decomp_ms": 0.369
+   },
+   "br-5": {
+    "bytes": 32544,
+    "comp_ms": 2.841,
+    "decomp_ms": 0.393
+   },
+   "br-11": {
+    "bytes": 29090,
+    "comp_ms": 189.458,
+    "decomp_ms": 0.462
+   },
+   "zstd-3": {
+    "bytes": 35967,
+    "comp_ms": 0.643,
+    "decomp_ms": 0.241
+   },
+   "zstd-19": {
+    "bytes": 31662,
+    "comp_ms": 33.771,
+    "decomp_ms": 0.202
+   }
+  },
+  {
+   "file": "quickjs-eval.wasm",
+   "bytes": 469105,
+   "gzip-6": {
+    "bytes": 218892,
+    "comp_ms": 15.03,
+    "decomp_ms": 1.858
+   },
+   "gzip-9": {
+    "bytes": 218445,
+    "comp_ms": 20.249,
+    "decomp_ms": 1.851
+   },
+   "br-5": {
+    "bytes": 206829,
+    "comp_ms": 16.161,
+    "decomp_ms": 1.982
+   },
+   "br-11": {
+    "bytes": 187051,
+    "comp_ms": 1203.614,
+    "decomp_ms": 2.616
+   },
+   "zstd-3": {
+    "bytes": 223776,
+    "comp_ms": 5.175,
+    "decomp_ms": 0.887
+   },
+   "zstd-19": {
+    "bytes": 196429,
+    "comp_ms": 134.224,
+    "decomp_ms": 1.224
+   }
+  },
+  {
+   "file": "sharp-wasm32.wasm",
+   "bytes": 8991731,
+   "gzip-6": {
+    "bytes": 3578755,
+    "comp_ms": 230.26,
+    "decomp_ms": 29.127
+   },
+   "gzip-9": {
+    "bytes": 3574786,
+    "comp_ms": 315.499,
+    "decomp_ms": 28.712
+   },
+   "br-5": {
+    "bytes": 3253260,
+    "comp_ms": 370.035,
+    "decomp_ms": 32.377
+   },
+   "br-11": {
+    "bytes": 2824175,
+    "comp_ms": 29397.519,
+    "decomp_ms": 47.04
+   },
+   "zstd-3": {
+    "bytes": 3545192,
+    "comp_ms": 50.182,
+    "decomp_ms": 14.332
+   },
+   "zstd-19": {
+    "bytes": 2987115,
+    "comp_ms": 4380.279,
+    "decomp_ms": 20.575
+   }
+  },
+  {
+   "file": "webp_codec.wasm",
+   "bytes": 565369,
+   "gzip-6": {
+    "bytes": 182609,
+    "comp_ms": 12.177,
+    "decomp_ms": 1.645
+   },
+   "gzip-9": {
+    "bytes": 181976,
+    "comp_ms": 13.834,
+    "decomp_ms": 1.652
+   },
+   "br-5": {
+    "bytes": 160912,
+    "comp_ms": 14.454,
+    "decomp_ms": 1.747
+   },
+   "br-11": {
+    "bytes": 141665,
+    "comp_ms": 1344.525,
+    "decomp_ms": 2.223
+   },
+   "zstd-3": {
+    "bytes": 177212,
+    "comp_ms": 2.695,
+    "decomp_ms": 0.899
+   },
+   "zstd-19": {
+    "bytes": 152029,
+    "comp_ms": 156.323,
+    "decomp_ms": 1.158
+   }
+  }
+ ]
+}

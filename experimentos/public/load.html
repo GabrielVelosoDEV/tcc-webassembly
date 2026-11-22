@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>E2-R — bancada de carregamento</title>
+<script type="module">
+// load.html?file=webp_codec.wasm&enc=identity|gzip|br|zstd — mede transferência e compilação em streaming
+const q = new URLSearchParams(location.search);
+const file = q.get('file'), enc = q.get('enc') ?? 'identity';
+const t0 = performance.now();
+let compiledAt = null, err = null;
+try { await WebAssembly.compileStreaming(fetch(`./${file}?enc=${enc}`)); compiledAt = performance.now(); }
+catch (e) { err = String(e); }
+const r = performance.getEntriesByType('resource').find(e => e.name.includes(file));
+window.__RESULT__ = {
+  file, enc, err,
+  ready_ms: compiledAt ? compiledAt - t0 : null,                                // do início do script até o módulo compilado
+  transfer_ms: r ? r.responseEnd - r.requestStart : null,
+  ttfb_ms: r ? r.responseStart - r.requestStart : null,
+  compile_residual_ms: (r && compiledAt) ? compiledAt - r.responseEnd : null,   // compilação que sobra após o último byte
+  transfer_size: r?.transferSize ?? null, encoded: r?.encodedBodySize ?? null, decoded: r?.decodedBodySize ?? null,
+};
+document.body.textContent = JSON.stringify(window.__RESULT__);
+</script>
